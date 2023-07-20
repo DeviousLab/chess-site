@@ -1,0 +1,19 @@
+#gamePage {
+	background-image: url('../img/imagejojo.jpeg');
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#myBoard {
+	width: 500px;
+  margin: 0 auto;
+
+}
+
+#gameInfo {
+  width: 500px;
+  margin: 0 auto;
+  background-color: white;
+  border: 1px solid black;
+}

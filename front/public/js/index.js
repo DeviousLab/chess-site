@@ -3,6 +3,7 @@ let gameHasStarted = false;
 var board = null
 var game = new Chess()
 var $status = $('#status')
+var $fen = $('#fen')
 var $pgn = $('#pgn')
 let gameOver = false;
 
@@ -90,6 +91,7 @@ function updateStatus () {
     }
 
     $status.html(status)
+    $fen.html(game.fen())
     $pgn.html(game.pgn())
 }
 

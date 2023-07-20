@@ -2,13 +2,18 @@
     <head>
         {{> head}}
     </head>
-    <body>
+    <body id="gamePage">
 
-        <div id="myBoard" style="width: 700px"></div>
-        <label>Status:</label>
-        <div id="status"></div>
-        <label>PGN:</label>
-        <div id="pgn"></div>
+        <!-- <img id="backgroundImage" src="/public/img/imagejojo.jpeg"> -->
+        <div id="myBoard"></div>
+        <div id="gameInfo">
+            <label>Status:</label>
+            <div id="status"></div>
+            <label>FEN:</label>
+            <div id="fen"></div>
+            <label>PGN:</label>
+            <div id="pgn"></div>
+        </div>
 
         <script>
             let playerColor = '{{color}}';
