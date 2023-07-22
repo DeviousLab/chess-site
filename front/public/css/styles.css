@@ -1,14 +1,19 @@
 #gamePage {
 	background-image: url('../img/imagejojo.jpeg');
 	background-repeat: no-repeat;
-  background-attachment: fixed;
   background-position: center;
 }
 
 #myBoard {
 	width: 500px;
   margin: 0 auto;
-
+  margin-top: 5%;
+  @media screen and (min-width: 2760px) {
+    margin-top: 12%;
+  }
+  @media screen and (min-width: 3840px) {
+    margin-top: 17%;
+  }
 }
 
 #gameInfo {
